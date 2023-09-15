@@ -1,0 +1,34 @@
+import java.util.Scanner;
+class Questão-um {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        double Gabriel;
+         double Stefane;
+         double Larissa;
+        double media;
+
+        System.out.println("Digite a nota do Gabriel:");
+         nota1 = input.nextDouble();
+          System.out.println("Digite a nota da Stefane:");
+           nota2 = input.nextDouble();
+            System.out.println("Digite a nota da Larissa:");
+             nota3 = input.nextDouble();
+
+        media = (Gabriel + Stefane + Larissa) / 3.0;
+
+        if (media > 8.0){
+         System.out.println("Conceito A");
+          }else if (media <= 8.0 && media >= 7.1){
+           System.out.println("Conceito B");
+            }else if (media >= 6.1 && media <= 7.0){
+             System.out.println("Conceito C");
+              }else if (media == 6.0){
+               System.out.println("Conceito D");
+                }else{
+
+            System.out.println("SEM Conceito");}
+
+        input.close();
+    }
+}

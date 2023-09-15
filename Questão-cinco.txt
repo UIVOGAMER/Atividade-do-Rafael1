@@ -1,0 +1,14 @@
+class AtividadeCinco {
+    public static void main(String[] args) {
+
+    int m1;
+     int soma=0;
+
+     for(m1=10; m1<= 20; m1++){
+      soma =soma+m1;
+    }
+
+    System.out.println(soma);
+        
+    }
+}

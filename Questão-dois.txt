@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+class Questão-dois {
+ public static void main(String[] args) {
+  Scanner input = new Scanner(System.in);
+
+        int idade;
+         String resposta , resposta2;
+
+        System.out.println("Boa noite, poderia me informar quantos anos voce?");
+         idade = input.nextInt();
+
+        if (idade >= 18){
+         System.out.println("tudo certo pode entrar,tenha uma boa noite.");
+          System.out.println("Próximo");
+         
+             }else if (idade < 18 && idade >= 16){ 
+              System.out.println("O elemento esta acompanhado? (sim ou não)");
+              input.nextLine();
+              resposta = input.nextLine();
+            
+                }if (resposta.equals("sim") || resposta.equals("s")) {
+                System.out.println("O seu acompanhante e de maior? (sim ou não)");
+                input.nextLine();
+                resposta2 = input.nextLine();
+            
+                    }else if {(resposta.equals("sim") || resposta.equals("s"))
+                    System.out.println("tudo certo pode entrar,tenha uma boa noite.");
+                    System.out.println("Próximo");
+        
+                     }else {
+                      System.out.println("Voces nao poden entrar aqui volte quando um de voceis for de maior.");
+           
+                    
+        } else {
+            System.out.println("VOCÊ NÃO PODE ENTRAR DE MANEIRA ALGUMA!");
+        }
+
+        input.close();
+        
+    }
+}

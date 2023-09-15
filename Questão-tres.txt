@@ -1,0 +1,14 @@
+class Questão-tres{
+    public static void main(String[] args){
+
+        int Sensorluminosidade = 0;
+         int Sensordepresenca = 1;
+          double Sensordepeso = 70.00;
+
+        if(Sensordepresenca == 1 && Sensorluminosidade == 0 && Sensordepeso > 30) {
+            System.out.println("Acender luz");
+          } else {
+             System.out.println("Apagar luz");
+        }
+    }
+}
